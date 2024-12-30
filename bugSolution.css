@@ -1,0 +1,17 @@
+/* bugSolution.css */
+
+.my-element {
+  /* Styles for the main element */
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+.my-element::before {
+  content: "Before:";
+  color: red;
+}
+
+.my-element::after {
+  content: "After:";
+  color: green;
+} 

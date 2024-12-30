@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS's `@apply` directive with a class that contains a pseudo-element selector, such as `::before` or `::after`. The `@apply` directive doesn't properly apply styles defined for these pseudo-elements, resulting in the styles not appearing in the rendered output.
